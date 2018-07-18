@@ -1,4 +1,4 @@
-export type ThemeInterface = {
+type ThemeInterface = {
   flexboxgrid: {
     gridSize: number;
     gutterWidth: number;
@@ -26,6 +26,6 @@ export type ThemeInterface = {
   };
 };
 
-export type Theme = {
+type Theme = {
   theme?: ThemeInterface;
-};
+}

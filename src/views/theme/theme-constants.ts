@@ -1,8 +1,5 @@
 /* tslint:disable object-literal-sort-keys */
-import { css } from 'styled-components';
-import { IthemeInterface } from '../../types/theme-types';
-
-const theme: IthemeInterface = {
+const theme: ThemeInterface = {
   flexboxgrid: {
     // Defaults
     gridSize: 12, // rem
