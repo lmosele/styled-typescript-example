@@ -1,5 +1,6 @@
 ## Install
 
-  0. ```nvm use 9.2.0```
-  1. ```npm i```
-  2. ```npm run watch:dev```
+  0. ```optional: install vscode-styled-components```
+  1. ```nvm use 9.2.0```
+  2. ```npm i```
+  3. ```npm run watch:dev```

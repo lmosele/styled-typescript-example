@@ -17,7 +17,7 @@ type ThemeInterface = {
       lg: number;
     };
   };
-  colors?: {
+  colors: {
     gray: string,
     lightGray: string,
     lighterGray: string,
