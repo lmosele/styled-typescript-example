@@ -1,8 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import configureStore from './state/store';
-
 import Page from './views/Page';
 
 import { injectGlobal, ThemeProvider } from 'styled-components';
