@@ -1,0 +1,31 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:latest",
+      "tslint-react"
+  ],
+  "jsRules": {},
+  "rules": {
+    "interface-over-type-literal": false,
+    "max-line-length": false,
+    "no-submodule-imports": false,
+    "prefer-object-spread": false,
+    "curly": true,
+    "no-var-requires": false,
+    "ordered-imports": false,
+    "quotemark": [true, "single", "avoid-escape"],
+    "object-literal-sort-keys": false,
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "debug",
+        "info",
+        "log",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    }
+  },
+  "rulesDirectory": []
+}
